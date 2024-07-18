@@ -1,13 +1,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 body {
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+}
+body h1,
+h2,
+h3,
+p,
+li {
+  color: white;
+}
+
 /* Miama font */
 /* @font-face {
   font-family: Miama;
   src: url("../font/Miama.ttf");
 }
-h1 {
-} */
+*/
 
+/* Shared style */
+.primary-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 40px 16px 40px;
+  border-radius: 2.6rem;
+  border: none;
+  color: white;
+  background-color: rgb(230, 83, 60);
+}
+
+.all-container-content {
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+/* Header style///////////////////////////// */
+.header-container {
+  /* background-image: linear-gradient(black, rgb(112, 105, 105), black); */
+  background-image: linear-gradient(
+    0deg,
+    rgb(37, 35, 35),
+    rgba(237, 219, 219, 0) 100%
+  );
+  position: relative;
+}
 /* Navbar style///////////////////////////// */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h2 {
+  color: orangered;
+}
+.nav-option {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+  padding: 0.5rem;
+  border: 2px solid rgb(114, 106, 106);
+  border-radius: 4rem;
+  /* opacity: 0.7; */
+}
+.nav-item {
+  list-style: none;
+  padding: 0.5rem;
+}
+.nav-item:nth-child(1) {
+  background-color: orangered;
+  padding: 0.5rem 1rem;
+  border-radius: 4rem;
+}
+
+/* Banner style /////////////////////////////*/
+.banner-content {
+  display: flex;
+}
+#dnlw-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 40px 16px 40px;
+  border-radius: 2.6rem;
+  border: none;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+.vedio-tutorial-crd {
+  display: flex;
+  /* justify-content: flex-start; */
+  max-width: 180px;
+  background: rgba(57, 52, 52, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 0.8rem;
+  margin: 15px;
+  border-radius: 15px;
+  text-align: left;
+  position: absolute;
+  gap: 10px;
+  right: 450px;
+  top: 500px;
+}
+#paragraph {
+  padding: 5px 24px;
+  background-color: orangered;
+  border-radius: 800%;
+}
+
+.workout-vdo-crd {
+  max-width: 180px;
+  background: rgba(57, 52, 52, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 0.8rem;
+  margin: 15px;
+  border-radius: 15px;
+  text-align: left;
+  position: absolute;
+  gap: 10px;
+  right: 129px;
+  top: 220px;
+}
