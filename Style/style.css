@@ -32,6 +32,7 @@ li {
   border: none;
   color: white;
   background-color: rgb(230, 83, 60);
+  cursor: pointer;
 }
 
 .all-container-content {
@@ -72,6 +73,7 @@ li {
 .nav-item {
   list-style: none;
   padding: 0.5rem;
+  cursor: pointer;
 }
 .nav-item:nth-child(1) {
   background-color: orangered;
@@ -92,6 +94,7 @@ li {
   color: white;
   background-color: black;
   border: 1px solid white;
+  cursor: pointer;
 }
 .vedio-tutorial-crd {
   display: flex;
@@ -131,6 +134,11 @@ li {
   text-align: center;
 }
 
+.banner-text-content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
 /* Change your habit style */
 .habit-container {
   display: grid;
@@ -146,13 +154,31 @@ li {
 }
 
 /* Run an Extra mile Style */
-.run-section-container {
-  /* display: flex; */
-  /* flex-direction: column; */
+/* .run-section-container {
+  display: flex; 
+  flex-direction: column;
 }
 .run-text-content {
 }
 .run-img {
-  /* width: 100%;
-  border: 2px solid red; */
+  width: 100%;
+  border: 2px solid red;
+} */
+
+.run-section-container {
+  display: flex;
+  background-color: rgb(70, 67, 67);
+  /* padding: 35px; */
+  border: 2px solid red;
+}
+.run-img {
+  width: 40%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.run-text-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
 }
