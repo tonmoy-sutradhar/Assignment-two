@@ -117,7 +117,10 @@ li {
 .banner-content {
   display: flex;
 }
-
+.banner-img {
+  /* border: 2px solid red; */
+  margin-left: 235px;
+}
 .banner-text-content h1 {
   font-size: 5rem;
   font-weight: 900;
@@ -137,6 +140,9 @@ li {
   font-weight: 400;
   line-height: 120%;
 }
+.join-btn::after {
+  content: "Join Club Now!";
+}
 #dnlw-btn {
   font-size: 1.1rem;
   font-weight: 600;
@@ -154,7 +160,7 @@ li {
   /* justify-content: flex-start; */
   max-width: 180px;
   background: rgba(48, 48, 48, 0.54);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(20px);
   padding: 0.8rem;
   margin: 15px;
   border-radius: 15px;
@@ -163,6 +169,7 @@ li {
   gap: 10px;
   right: 450px;
   top: 500px;
+  /* border: 2px solid red; */
 }
 #paragraph {
   padding: 5px 24px;
@@ -172,8 +179,9 @@ li {
 
 .workout-vdo-crd {
   max-width: 180px;
-  background: rgba(57, 52, 52, 0.3);
-  backdrop-filter: blur(4px);
+  /* background: rgba(57, 52, 52, 0.3); */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
   padding: 0.8rem;
   margin: 15px;
   border-radius: 15px;
@@ -265,5 +273,28 @@ li {
   }
   .nav-option {
     display: none;
+  }
+  .banner-content {
+    flex-direction: column;
+    /* margin: 20px; */
+  }
+  .banner-img {
+    /* margin: 20px; */
+    margin: 0px;
+  }
+  .btn-div {
+    display: flex;
+  }
+  .join-btn::after {
+    content: "Join Now!";
+  }
+  .vedio-tutorial-crd {
+    /* position: 100px; */
+    right: 180px;
+    top: 1055px;
+  }
+  .workout-vdo-crd {
+    right: 1px;
+    top: 835px;
   }
 }
