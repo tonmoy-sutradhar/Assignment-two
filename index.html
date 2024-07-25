@@ -6,6 +6,10 @@
     <title>Fitness Gym</title>
     <link rel="stylesheet" href="Style/style.css" />
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <header class="header-container">
@@ -17,18 +21,26 @@
           <li class="nav-item">Contact</li>
           <li class="nav-item">About</li>
         </ul>
+        <div class="hand-bargar-menu">
+          <!-- <i class="fa-solid fa-bars"></i> -->
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </div>
       </nav>
 
       <div class="banner-content all-container-content">
-        <div class="banner-text-content">
+        <div class="banner-text-content paragraph">
           <h1>
             Get body in <br />
-            shape & stay <br />
+            <span id="shape-style">shape</span> & stay <br />
             healthy
           </h1>
           <p>
-            A huge selection of health and fitness content, healthy recipes and
-            transformation stories to help you get fit and stay fit!
+            <!-- A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit! -->
+            Getting in shape and staying healthy requires regular exercise,
+            balanced nutrition, and adequate rest. Managing stress and<br />
+            building positive relationships support mental well-being, while
+            consistency and discipline ensure long-term success.
           </p>
           <button class="primary-btn">Join Club Now!</button>
           <button id="dnlw-btn">Download App</button>
@@ -39,18 +51,20 @@
       </div>
       <div class="vedio-tutorial-crd">
         <p id="paragraph"></p>
-        <div>
+        <div class="vdo-crd">
           <h2>350+</h2>
-          <p>Video tutorial</p>
+          <p id="vedio-tutorial">Video tutorial</p>
         </div>
       </div>
-      <div class="workout-vdo-crd">
+      <div class="workout-vdo-crd paragraph">
         <h2>500+</h2>
         <p>Free Workout Video</p>
       </div>
     </header>
     <main>
-      <section class="change-section-container all-container-content">
+      <section
+        class="change-section-container all-container-content paragraph hide"
+      >
         <h1>Change Your Habits</h1>
         <p>
           We believe should be accessible to everyone, everywhere, regardless of
@@ -58,7 +72,7 @@
         </p>
 
         <div class="habit-container">
-          <div class="habit-card">
+          <div class="habit-card paragraph">
             <img src="images/card-1.png" alt="Habit card one img" />
             <h4>Movement</h4>
             <p>We believe fitness should be accessible to everyone</p>
@@ -84,8 +98,8 @@
         </div>
       </section>
 
-      <section class="run-section-container all-container-content">
-        <div class="run-text-content">
+      <section class="run-section-container all-container-content hide">
+        <div class="run-text-content paragraph">
           <h1>
             Run an Extra <br />
             Mile Easily
