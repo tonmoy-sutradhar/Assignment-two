@@ -224,7 +224,9 @@ li {
   margin-top: 58px;
   /* border: 2px solid red; */
 }
-.habit-card {
+.habit-card p {
+  line-height: 18px;
+  letter-spacing: 0.3px;
   /* border: 2px solid red; */
 }
 .habit-card h4 {
@@ -242,23 +244,34 @@ li {
   display: flex;
   /* background-color: rgb(70, 67, 67); */
   background-color: rgb(34, 34, 34);
+  margin-top: 75px;
   /* padding: 30px; */
   /* border: 2px solid red; */
 }
 .run-img {
-  width: 40%;
+  max-width: 450px;
+  /* width: 40%; */
   padding: 30px;
+  margin-left: 200px;
 }
 .run-img img {
   width: 100%;
   border-radius: 20px;
 }
 .run-text-content {
-  padding: 30px;
+  max-width: 600px;
+  padding: 40px 0px 0px 54px;
+  /* border: 2px solid red; */
 }
 .run-text-content h1 {
   font-size: 3rem;
   font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 14px;
+}
+.run-text-content p {
+  margin-bottom: 34px;
 }
 
 /* display hide */
@@ -292,7 +305,8 @@ li {
   .nav-option {
     display: none;
   }
-  .banner-content {
+  .banner-content,
+  .run-section-container {
     flex-direction: column;
     /* margin: 20px; */
   }
@@ -408,5 +422,39 @@ li {
   }
   .habit-card p {
     margin-bottom: 40px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+  }
+
+  /* Run an Extra Mile Easily */
+  .run-text-content h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    /* border: 2px solid red; */
+  }
+  .run-text-content {
+    padding: 33px 33px 0px 33px;
+  }
+  .run-text-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  .now-btn {
+    width: 287px;
+    padding: 16px 40px 16px 40px;
+  }
+  .run-img {
+    /* width: 100%; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 18px;
   }
 }
+
+/* Last Update.(https://tonmoy-sutradhar.github.io/Assignment-two/) */
