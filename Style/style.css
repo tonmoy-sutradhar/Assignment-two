@@ -141,6 +141,10 @@ li {
   font-weight: 400;
   line-height: 120%;
 }
+.btn-div {
+  max-width: 430px;
+  /* border: 2px solid red; */
+}
 .join-btn::after {
   content: "Join Club Now!";
 }
@@ -279,12 +283,11 @@ li {
   }
   .btn-div {
     display: flex;
-    margin: 0px;
+    width: 350px;
     gap: 10px;
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
+    /* font-size: 1rem;
+    font-weight: 600; */
+    /* border: 2px solid red; */
   }
   .join-btn::after {
     content: "Join Now!";
@@ -292,17 +295,21 @@ li {
   }
   .vedio-tutorial-crd {
     /* position: 100px; */
-    right: 200px;
-    top: 655px;
+    right: 220px;
+    top: 635px;
   }
   .workout-vdo-crd {
-    right: 22px;
-    top: 450px;
+    right: 60px;
+    top: 416px;
   }
   .banner-text-content h1 {
     font-size: 2.3rem;
   }
+  #bnner-description {
+    max-width: 274px;
+  }
   #shape-style {
+    /* font-family: miama; */
     font-family: miama;
     /* font-family: sans-serif; */
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -323,5 +330,50 @@ li {
     font-weight: 600;
     width: 10.585rem;
     padding: 15px 0px;
+  }
+
+  /* // */
+  .vedio-tutorial-crd {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    max-width: 155.74px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(15.12px);
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+    border-radius: 15px;
+    /* text-align: left;
+    position: absolute;
+    gap: 10px;
+    right: 450px;
+    top: 500px; */
+    /* box-sizing: border-box;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9.07px;
+     */
+    /* border: 2px solid red; */
+  }
+  .vdo-crd h2 {
+    font-size: 18.14px;
+    font-weight: 900;
+  }
+  #vedio-tutorial {
+    /* font-size: ; */
+    font-size: 12.1px;
+    font-weight: 400;
+    line-height: 18.14px;
+    letter-spacing: 0.38px;
+  }
+  .paragraph h2 {
+    font-size: 30.24px;
+    font-weight: 900;
+    line-height: 30.24px;
+    letter-spacing: 0.76px;
+  }
+  .paragraph p {
+    font-size: 9.83px;
+    font-weight: 400;
+    line-height: 15.12px;
+    letter-spacing: 0.76px;
   }
 }
