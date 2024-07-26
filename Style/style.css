@@ -267,6 +267,7 @@ li {
     flex-direction: row;
     align-items: center;
     justify-items: center;
+    /* margin: 20px; */
   }
   .hand-bargar-menu {
     display: block;
@@ -278,6 +279,7 @@ li {
     flex-direction: column;
     /* margin: 20px; */
   }
+
   .banner-img {
     /* margin: 20px; */
     margin: 0px;
@@ -295,7 +297,6 @@ li {
   }
   .workout-vdo-crd {
     right: 1px;
-    left: 1px;
     top: 835px;
   }
 }
