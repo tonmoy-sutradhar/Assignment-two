@@ -257,7 +257,7 @@ li {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    /* margin: 20px; */
+    /* margin: 10px 0px 0px; */
   }
   .navbar h2 {
     margin-bottom: 0px;
@@ -280,6 +280,11 @@ li {
   .btn-div {
     display: flex;
     margin: 0px;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
   }
   .join-btn::after {
     content: "Join Now!";
@@ -287,12 +292,12 @@ li {
   }
   .vedio-tutorial-crd {
     /* position: 100px; */
-    right: 180px;
-    top: 1055px;
+    right: 200px;
+    top: 655px;
   }
   .workout-vdo-crd {
-    right: 1px;
-    top: 835px;
+    right: 22px;
+    top: 450px;
   }
   .banner-text-content h1 {
     font-size: 2.3rem;
@@ -304,5 +309,19 @@ li {
     font-size: 2.3rem;
     font-weight: 400;
     line-height: 120%;
+  }
+  .primary-btn {
+    /* font-size: 0.5rem; */
+    /* width: 10.585rem; */
+    font-size: 1rem;
+    font-weight: 600;
+    width: 10.585rem;
+    padding: 5px 0px;
+  }
+  #dnlw-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 10.585rem;
+    padding: 15px 0px;
   }
 }
