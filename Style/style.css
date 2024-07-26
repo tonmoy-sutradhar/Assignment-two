@@ -297,4 +297,12 @@ li {
   .banner-text-content h1 {
     font-size: 2.3rem;
   }
+  #shape-style {
+    font-family: miama;
+    /* font-family: sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 120%;
+  }
 }
