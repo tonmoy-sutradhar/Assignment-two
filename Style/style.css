@@ -196,12 +196,21 @@ li {
   right: 129px;
   top: 220px;
 }
+
+/* change section style */
 .change-section-container {
+  margin-top: 68px;
   text-align: center;
+  /* border: 2px solid red; */
 }
 .change-section-container h1 {
   font-size: 3rem;
   font-weight: 900;
+  margin-bottom: 14px;
+}
+.paragraph h4 {
+  margin-top: 30px;
+  margin-bottom: 6px;
 }
 
 .banner-text-content {
@@ -212,6 +221,8 @@ li {
 .habit-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 58px;
+  /* border: 2px solid red; */
 }
 .habit-card {
   /* border: 2px solid red; */
@@ -256,7 +267,16 @@ li {
 }
 
 /* Responsive for mobile */
+
 @media screen and (max-width: 576px) {
+  .header-container {
+    background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17),
+      rgba(119, 119, 119, 0) 100%
+    );
+  }
+
   .navbar {
     flex-direction: row;
     align-items: center;
@@ -375,5 +395,18 @@ li {
     font-weight: 400;
     line-height: 15.12px;
     letter-spacing: 0.76px;
+  }
+  /* Change Your Habit section */
+  .change-section-container {
+    margin-top: 0px;
+  }
+  .habit-container {
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+    /* margin-top: 58px; */
+    /* border: 2px solid red; */
+  }
+  .habit-card p {
+    margin-bottom: 40px;
   }
 }
