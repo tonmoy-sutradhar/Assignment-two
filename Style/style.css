@@ -627,7 +627,8 @@ select {
     font-weight: 900;
   }
   .calculate-your-bmi {
-    width: 399px;
+    /* width: 399px; */
+    width: 354px;
     /* width: 100%; */
     margin: 10px;
     /* border: 2px solid red; */
