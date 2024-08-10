@@ -61,7 +61,6 @@ li {
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0) 100%
   );
-  /* border: 2px solid black; */
   position: relative;
 }
 
@@ -70,7 +69,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* justify-items: center; */
 }
 .hand-bargar-menu {
   display: none;
@@ -125,7 +123,6 @@ li {
   display: flex;
 }
 .banner-img {
-  /* border: 2px solid red; */
   margin-left: 235px;
 }
 .banner-text-content h1 {
@@ -171,7 +168,6 @@ li {
 }
 .vedio-tutorial-crd {
   display: flex;
-  /* justify-content: flex-start; */
   max-width: 180px;
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(20px);
@@ -183,7 +179,6 @@ li {
   gap: 10px;
   right: 450px;
   top: 500px;
-  /* border: 2px solid red; */
 }
 #paragraph {
   padding: 5px 24px;
@@ -193,7 +188,6 @@ li {
 
 .workout-vdo-crd {
   max-width: 180px;
-  /* background: rgba(57, 52, 52, 0.3); */
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   padding: 0.8rem;
@@ -210,7 +204,6 @@ li {
 .change-section-container {
   margin-top: 68px;
   text-align: center;
-  /* border: 2px solid red; */
 }
 .change-section-container h1 {
   font-size: 3rem;
@@ -231,12 +224,10 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 58px;
-  /* border: 2px solid red; */
 }
 .habit-card p {
   line-height: 18px;
   letter-spacing: 0.3px;
-  /* border: 2px solid red; */
 }
 .habit-card h4 {
   font-size: 1.1rem;
@@ -245,17 +236,13 @@ li {
 .habit-card img {
   border: 3px solid rgb(62, 61, 61);
   border-radius: 50%;
-  /* border-color: darkgray; */
 }
 
 /* Run an Extra mile Style */
 .run-section-container {
   display: flex;
-  /* background-color: rgb(70, 67, 67); */
   background-color: rgb(34, 34, 34);
   margin-top: 75px;
-  /* padding: 30px; */
-  /* border: 2px solid red; */
 }
 .run-img {
   max-width: 450px;
@@ -270,7 +257,6 @@ li {
 .run-text-content {
   max-width: 600px;
   padding: 40px 0px 0px 54px;
-  /* border: 2px solid red; */
 }
 .run-text-content h1 {
   font-size: 3rem;
@@ -286,11 +272,7 @@ li {
 /* BMI Text container style */
 .bmi-text-container {
   text-align: center;
-  /* width: 671px; */
-  /* margin-left: 427px; */
   margin-top: 80px;
-  /* margin-left: 300px; */
-  /* border: 2px solid red; */
 }
 .bmi-text-container h1 {
   font-size: 3rem;
@@ -336,14 +318,12 @@ td {
   padding: 10px 18px;
 }
 .bmi-chart {
-  /* border: 2px solid red; */
   width: 310px;
   margin-top: 52px;
   margin-left: 189px;
 }
 
 .calculate-your-bmi {
-  /* border: 2px solid red; */
   width: 577px;
   margin-left: 250px;
 }
@@ -372,12 +352,10 @@ td {
 .form-field {
   width: 47%;
   margin-top: 10px;
-  /* border: 2px solid red; */
 }
 .form-field-text-area {
   width: 97%;
   margin-top: 10px;
-  /* border: 2px solid red; */
 }
 
 .form-container textarea,
@@ -474,19 +452,13 @@ select {
 /* Footer section style */
 
 .footer-section {
-  /* display: flex; */
-  /* background-color: rgba(255, 255, 255, 0.1); */
-  background: rgba(255, 255, 255, 0.1);
-  color: red;
-  /* border: 2px solid red; */
+  margin-top: 88px;
 }
 .footer-context {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(34, 34, 34);
 }
 .footer-container {
   display: flex;
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* border: 2px solid rgb(47, 0, 255); */
 }
 .second-text-content h1 {
   margin-top: 66px;
@@ -582,14 +554,30 @@ select {
     flex-direction: column;
     /* margin: 20px; */
   }
+  /* .banner-text-content {
+    margin: 0px;
+  }
+  #bnner-description {
+    margin: 0px;
+  } */
   .run-section-container {
     margin: 20px;
   }
-
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
   .banner-img {
-    /* margin: 20px; */
     margin: 0px;
   }
+  .run-img {
+    padding: 0;
+  }
+
+  /* .banner-img {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%; 
+  } */
+
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   .btn-div {
     display: flex;
     width: 350px;
@@ -721,7 +709,9 @@ select {
     text-align: left;
   }
   .now-btn {
-    width: 287px;
+    /* width: 160px; */
+    width: 100%;
+    /* width: 287px; */
     padding: 16px 40px 16px 40px;
   }
   .run-img {
