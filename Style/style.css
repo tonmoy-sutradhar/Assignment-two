@@ -292,6 +292,13 @@ li {
   background: rgb(34, 34, 34);
   margin-top: 88px;
 }
+.h-two-font {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
 table {
   border-collapse: collapse;
   margin-top: 52px;
@@ -348,6 +355,7 @@ td {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 28px;
+  /* border: 2px solid red; */
 }
 .form-field {
   width: 47%;
@@ -388,13 +396,19 @@ select {
 /* MEET Our Team section style */
 
 .team-section-container {
+  /* width: 100%; */
   /* border: 2px solid rgb(49, 0, 246); */
+  /* margin: 20px; */
+}
+.team-text {
+  margin-bottom: 58px;
 }
 .team-text h1 {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   letter-spacing: 0%;
+  margin-bottom: 7px;
   text-align: center;
 }
 .team-text p {
@@ -406,30 +420,61 @@ select {
 }
 
 .tainer-img-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* gap: 20px; */
+  /* display: flex;
+  flex-direction: column;
+  justify-items: ;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 18px;
-  /* border: 2px solid green; */
+  border: 2px solid green; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 20px; */
 }
+/* ////////////////////////////////////// */
+.tainer-img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* gap: 10px 10px; */
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+}
+
+/* .card img {
+  flex: 1 0 30%; 
+  margin-bottom: 10px; 
+  max-width: 100%; 
+  box-sizing: border-box; 
+} */
+
+/* ///////////////////////////////////// */
 .card {
-  width: 326.67px;
-  /* width: 430px; */
-  min-height: 272px;
-  padding: 20px;
+  /* width: 326.67px; */
+  width: 415px;
+  /* min-height: 272px; */
+  /* padding: 20px; */
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* padding: 10px; */
+  /* padding: 0px 0px 20px 0px; */
   /* padding: 20px; */
   /* border: 2px solid red; */
 }
 .card div:nth-child(1) {
-  height: 272px;
+  /* height: 272px; */
+  /* padding: 20px 0px 0px 0px; */
+  height: 350px;
+  /* background-color: gray; */
+  /* margin-top: 20px; */
   /* border: 2px solid purple; */
 }
 .card img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
+  background-color: rgb(0, 0, 0);
   /* padding: 20px 20px 20px 20px; */
   /* background-color: black; */
   /* border: 2px solid yellow; */
@@ -437,7 +482,7 @@ select {
 
 .tainer-text h3 {
   position: absolute;
-  top: 205px;
+  top: 280px;
   left: 31px;
 }
 .tainer-text p {
@@ -445,11 +490,12 @@ select {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  top: 235px;
+  /* top: 235px; */
+  top: 308px;
   left: 31px;
 }
 
-/* Footer section style */
+/* Footer section style start here.......................... */
 
 .footer-section {
   margin-top: 88px;
@@ -724,6 +770,7 @@ select {
   .bmi-text-container {
     /* width: 353px; */
     /* width: 100%; */
+    text-align: left;
     margin: 20px;
   }
   .bmi-text-container h1 {
@@ -738,6 +785,9 @@ select {
   /* BMI Calculate section style */
   .bmi-calculate-container {
     flex-direction: column;
+    margin-top: 30px;
+    /* width: 100%; */
+    /* margin: 20px; */
   }
   .calculate-your-bmi h2 {
     font-size: 1rem;
@@ -745,13 +795,25 @@ select {
     margin-top: 15px;
   }
   .calculate-your-bmi button {
-    width: 224px;
+    /* width: 224px; */
+    width: 200px;
     padding: 16px 40px 16px 40px;
     margin-left: 0px;
   }
+
   .bmi-chart {
-    margin: 10px;
+    width: 100%;
+    margin: 20px;
+    /* ///// */
+    /* width: 310px; */
+    /* margin-top: 52px; */
+    margin-left: 0px;
+    /* padding: 0 20 0px 0; */
+    /* /////// */
   }
+  /* .bmi-chart {
+    margin: 10px;
+  } */
   .bmi-chart h2 {
     margin-top: 30px;
     font-size: 1rem;
@@ -759,11 +821,12 @@ select {
   }
   .calculate-your-bmi {
     /* width: 399px; */
-    width: 354px;
-    /* width: 100%; */
+    /* width: 354px; */
+    width: 100%;
     margin: 10px;
-    /* border: 2px solid red; */
+    margin-left: 0px;
   }
+
   table {
     margin-top: 23px;
     margin-bottom: 0px;
@@ -773,39 +836,68 @@ select {
     /* border: 2px solid rgb(0, 244, 28); */
   }
 
-  .calculate-your-bmi h2 {
+  /* .calculate-your-bmi h2 {
     margin-left: 0px;
   }
   .calculate-your-bmi p {
     margin-left: 0px;
-  }
-
-  /* Meet our team responsive */
-  .tainer-img-container {
-    /* display: grid; */
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  /* Footer section */
-  /* .footer-section {
-    flex-direction: column;
   } */
-  .footer-container {
+
+  /* Meet our team responsive///////////////////////////////////////////////////////////////////////////// */
+  .team-section-container {
+    /* width: 100%; */
+    /* border: 2px solid red; */
+  }
+  .tainer-img-container {
     flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* margin: 20px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+  .card {
+    width: 90%;
+    /* height: 100%; */
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    /* padding: 10px 10px 10px 10px; */
+    /* border-radius: 18px; */
+    /* padding: 20px 20px 20px 20px; */
+    /* background-color: black; */
+    /* border: 2px solid yellow; */
+  }
+
+  /* Footer section start............................ */
+  .footer-section {
+    width: 100%;
+  }
+  .footer-container {
+    /* width: 100%; */
+    flex-direction: column;
+    margin: 20px;
   }
   #border {
     width: 170px;
-    margin-left: 20px;
+    margin: 20px;
+    margin-left: 0px;
   }
   .fitness-text {
-    margin-left: 20px;
+    margin: 20px;
+    margin-left: 0px;
   }
 
   .second-text-content {
-    margin-left: 20px;
+    margin: 20px;
+    margin-left: 0px;
   }
   .third-text-content {
-    margin-left: 20px;
+    margin: 20px;
+    margin-left: 0px;
   }
   .last-text {
     margin-left: 20px;
