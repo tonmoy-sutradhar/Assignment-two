@@ -891,9 +891,9 @@ select {
   }
   #border {
     /* width: 170px; */
-    width: 40%;
+    width: 60%;
     margin: 20px;
-    margin-left: 0px;
+    margin-left: 70px;
   }
   .fitness-text {
     margin: 20px;
@@ -912,6 +912,7 @@ select {
     /* margin-left: 20px; */
     text-align: left;
     padding-bottom: 5px;
+    padding-left: 20px;
   }
   .footer-context {
     /* width: 100%; */
