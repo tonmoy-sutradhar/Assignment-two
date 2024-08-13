@@ -42,7 +42,8 @@ li {
 
 .all-container-content {
   width: 90%;
-  margin: 2rem auto;
+
+  margin: 0 auto;
   border-radius: 1rem;
 }
 .paragraph p {
@@ -56,6 +57,7 @@ li {
 
 /* Header style */
 .header-container {
+  padding-top: 20px;
   background-image: linear-gradient(
     180deg,
     rgb(17, 17, 17),
@@ -325,13 +327,18 @@ td {
   padding: 10px 18px;
 }
 .bmi-chart {
-  width: 310px;
+  /* width: 310px; */
+  /* width: 30%; */
+  width: 20%;
   margin-top: 52px;
+  /* padding: 0px 0px 0px 190px; */
   margin-left: 189px;
+  /* border: 2px solid red; */
 }
 
 .calculate-your-bmi {
-  width: 577px;
+  /* width: 577px; */
+  width: 40%;
   margin-left: 250px;
 }
 .calculate-your-bmi h2 {
@@ -786,7 +793,7 @@ select {
   .bmi-calculate-container {
     flex-direction: column;
     margin-top: 30px;
-    /* width: 100%; */
+    width: 100%;
     /* margin: 20px; */
   }
   .calculate-your-bmi h2 {
@@ -802,17 +809,14 @@ select {
   }
 
   .bmi-chart {
-    width: 100%;
-    margin: 20px;
-    /* ///// */
-    /* width: 310px; */
-    /* margin-top: 52px; */
+    width: 70%;
+    /* width: 200px; */
+    /* margin: 20px; */
     margin-left: 0px;
-    /* padding: 0 20 0px 0; */
-    /* /////// */
+    /* border: 2px solid red; */
   }
   /* .bmi-chart {
-    margin: 10px;
+    
   } */
   .bmi-chart h2 {
     margin-top: 30px;
@@ -833,15 +837,19 @@ select {
   }
   .form-container {
     width: 100%;
+    /* margin: 20px; */
     /* border: 2px solid rgb(0, 244, 28); */
+  }
+  .form-field {
+    /* margin: 20px; */
   }
 
   /* .calculate-your-bmi h2 {
     margin-left: 0px;
-  }
+  } */
   .calculate-your-bmi p {
     margin-left: 0px;
-  } */
+  }
 
   /* Meet our team responsive///////////////////////////////////////////////////////////////////////////// */
   .team-section-container {
@@ -874,7 +882,7 @@ select {
 
   /* Footer section start............................ */
   .footer-section {
-    width: 100%;
+    /* width: 100%; */
   }
   .footer-container {
     /* width: 100%; */
@@ -882,7 +890,8 @@ select {
     margin: 20px;
   }
   #border {
-    width: 170px;
+    /* width: 170px; */
+    width: 40%;
     margin: 20px;
     margin-left: 0px;
   }
@@ -900,9 +909,25 @@ select {
     margin-left: 0px;
   }
   .last-text {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     text-align: left;
     padding-bottom: 5px;
+  }
+  .footer-context {
+    /* width: 100%; */
+  }
+  .fitness-text {
+    margin-left: 0;
+    /* width: 100px; */
+  }
+  .fitness-text h1 {
+    /* width: 100px; */
+    font-size: 1rem;
+    border: 2px solid red;
+  }
+  .fitness-text p {
+    width: 200px;
+    border: 2px solid red;
   }
 }
 
