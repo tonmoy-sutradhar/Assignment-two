@@ -794,7 +794,8 @@ select {
     flex-direction: column;
     margin-top: 30px;
     width: 100%;
-    margin: 20px;
+    /* padding: 20px 20px 20px 20px; */
+    /* margin: 20px; */
   }
   .calculate-your-bmi h2 {
     font-size: 1rem;
@@ -813,6 +814,7 @@ select {
     /* width: 200px; */
     /* margin: 20px; */
     margin-left: 0px;
+    padding-left: 12px;
     /* border: 2px solid red; */
   }
   /* .bmi-chart {
@@ -836,7 +838,8 @@ select {
     margin-bottom: 0px;
   }
   .form-container {
-    width: 100%;
+    width: 97%;
+    padding-left: 5px;
     /* margin: 20px; */
     /* border: 2px solid rgb(0, 244, 28); */
   }
@@ -844,11 +847,11 @@ select {
     /* margin: 20px; */
   }
 
-  /* .calculate-your-bmi h2 {
-    margin-left: 0px;
-  } */
+  .calculate-your-bmi h2 {
+    padding-left: 7px;
+  }
   .calculate-your-bmi p {
-    margin-left: 0px;
+    padding-left: 7px;
   }
 
   /* Meet our team responsive///////////////////////////////////////////////////////////////////////////// */
@@ -891,9 +894,10 @@ select {
   }
   #border {
     /* width: 170px; */
-    width: 60%;
-    margin: 20px;
-    margin-left: 70px;
+    width: 90%;
+    /* margin: 20px; */
+    padding-left: 0px;
+    margin-left: 20px;
   }
   .fitness-text {
     margin: 20px;
@@ -910,7 +914,7 @@ select {
   }
   .last-text {
     /* margin-left: 20px; */
-    text-align: left;
+    text-align: center;
     padding-bottom: 5px;
     padding-left: 20px;
   }
