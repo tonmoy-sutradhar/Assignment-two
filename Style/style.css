@@ -48,7 +48,6 @@ li {
 }
 .paragraph p {
   font-size: 0.9rem;
-  /* font-size: 0.873rem; */
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -130,11 +129,8 @@ li {
 .banner-text-content h1 {
   font-size: 5rem;
   font-weight: 900;
-  /* margin-bottom: 1.8rem; */
   margin-bottom: 2.1rem;
-  /* line-height: 120%; */
   line-height: 100%;
-  /* line-height: 40%; */
   letter-spacing: 0%;
 }
 .banner-text-content p {
@@ -142,16 +138,12 @@ li {
 }
 #shape-style {
   font-family: miama;
-  /* font-family: sans-serif; */
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-size: 9rem;
   font-weight: 400;
-  /* line-height: 120%; */
   line-height: 90%;
 }
 .btn-div {
   max-width: 430px;
-  /* border: 2px solid red; */
 }
 .join-btn::after {
   content: "Join Club Now!";
@@ -248,7 +240,6 @@ li {
 }
 .run-img {
   max-width: 450px;
-  /* width: 40%; */
   padding: 30px;
   margin-left: 200px;
 }
@@ -327,17 +318,12 @@ td {
   padding: 10px 18px;
 }
 .bmi-chart {
-  /* width: 310px; */
-  /* width: 30%; */
   width: 20%;
   margin-top: 52px;
-  /* padding: 0px 0px 0px 190px; */
   margin-left: 189px;
-  /* border: 2px solid red; */
 }
 
 .calculate-your-bmi {
-  /* width: 577px; */
   width: 40%;
   margin-left: 250px;
 }
@@ -362,7 +348,6 @@ td {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 28px;
-  /* border: 2px solid red; */
 }
 .form-field {
   width: 47%;
@@ -380,16 +365,10 @@ select {
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
   height: 40px;
-  /* margin-left: 10px; */
-  /* padding: 1px 10px 0px; */
-  /* padding: 12px 40px 12px 20px; */
   color: rgba(255, 255, 255, 0.6);
   font-family: Inter;
   font-size: 16px;
   border: none;
-  /* font-weight: 400; */
-  /* line-height: 22px; */
-  /* letter-spacing: 0px; */
 }
 .form-container select {
   color: rgba(255, 255, 255, 0.6);
@@ -403,8 +382,6 @@ select {
 /* MEET Our Team section style */
 
 .team-section-container {
-  /* width: 100%; */
-  /* border: 2px solid rgb(49, 0, 246); */
   margin-top: 80px;
 }
 .team-text {
@@ -426,65 +403,28 @@ select {
   text-align: center;
 }
 
-.tainer-img-container {
-  /* display: flex;
-  flex-direction: column;
-  justify-items: ;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 18px;
-  border: 2px solid green; */
-  /* display: grid; */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* gap: 20px; */
-}
 /* ////////////////////////////////////// */
 .tainer-img-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* gap: 10px 10px; */
-
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 18px;
 }
-
-/* .card img {
-  flex: 1 0 30%; 
-  margin-bottom: 10px; 
-  max-width: 100%; 
-  box-sizing: border-box; 
-} */
-
-/* ///////////////////////////////////// */
 .card {
-  /* width: 326.67px; */
   width: 415px;
-  /* min-height: 272px; */
-  /* padding: 20px; */
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* padding: 10px; */
-  /* padding: 0px 0px 20px 0px; */
-  /* padding: 20px; */
-  /* border: 2px solid red; */
 }
 .card div:nth-child(1) {
-  /* height: 272px; */
-  /* padding: 20px 0px 0px 0px; */
   height: 350px;
-  /* background-color: gray; */
-  /* margin-top: 20px; */
-  /* border: 2px solid purple; */
 }
 .card img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
   background-color: rgb(0, 0, 0);
-  /* padding: 20px 20px 20px 20px; */
-  /* background-color: black; */
-  /* border: 2px solid yellow; */
 }
 
 .tainer-text h3 {
@@ -497,7 +437,6 @@ select {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  /* top: 235px; */
   top: 308px;
   left: 31px;
 }
@@ -550,17 +489,13 @@ select {
 }
 .third-text-content {
   margin-left: 220px;
-  /* border: 2px solid red; */
 }
 #border {
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin-top: 79px;
   margin-bottom: 36px;
-  /* width: 1059.5px; */
   width: 1262px;
   margin-left: 100px;
-  /* background-color: rgba(255, 255, 255, 0.1); */
-  /* border: 2px solid red; */
 }
 .last-text {
   font-size: 20px;
@@ -569,14 +504,13 @@ select {
   letter-spacing: 0.3px;
   text-align: center;
   padding-bottom: 35px;
-  /* background: rgba(255, 255, 255, 0.1); */
 }
 /* display hide */
 .hide {
   display: none;
 }
 
-/* Responsive for mobile ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Responsive style ///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (max-width: 576px) {
   .header-container {
@@ -591,7 +525,6 @@ select {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    /* margin: 10px 0px 0px; */
   }
   .navbar h2 {
     margin-bottom: 0px;
@@ -605,18 +538,10 @@ select {
   .banner-content,
   .run-section-container {
     flex-direction: column;
-    /* margin: 20px; */
   }
-  /* .banner-text-content {
-    margin: 0px;
-  }
-  #bnner-description {
-    margin: 0px;
-  } */
   .run-section-container {
     margin: 20px;
   }
-  /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
   .banner-img {
     margin: 0px;
   }
@@ -624,27 +549,15 @@ select {
     padding: 0;
   }
 
-  /* .banner-img {
-    margin-left: 0;
-    margin-top: 20px;
-    width: 100%; 
-  } */
-
-  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   .btn-div {
     display: flex;
     width: 350px;
     gap: 10px;
-    /* font-size: 1rem;
-    font-weight: 600; */
-    /* border: 2px solid red; */
   }
   .join-btn::after {
     content: "Join Now!";
-    /* padding: 0; */
   }
   .vedio-tutorial-crd {
-    /* position: 100px; */
     right: 220px;
     top: 635px;
   }
@@ -659,17 +572,12 @@ select {
     max-width: 274px;
   }
   #shape-style {
-    /* font-family: miama; */
     font-family: miama;
-    /* font-family: sans-serif; */
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 2.3rem;
     font-weight: 400;
     line-height: 120%;
   }
   .primary-btn {
-    /* font-size: 0.5rem; */
-    /* width: 10.585rem; */
     font-size: 1rem;
     font-weight: 600;
     width: 10.585rem;
@@ -682,33 +590,19 @@ select {
     padding: 15px 0px;
   }
 
-  /* // */
   .vedio-tutorial-crd {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     max-width: 155.74px;
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(15.12px);
     padding: 10px 10px 10px 10px;
     margin: 15px;
     border-radius: 15px;
-    /* text-align: left;
-    position: absolute;
-    gap: 10px;
-    right: 450px;
-    top: 500px; */
-    /* box-sizing: border-box;
-    border: 0.76px solid rgba(255, 255, 255, 0.1);
-    border-radius: 9.07px;
-     */
-    /* border: 2px solid red; */
   }
   .vdo-crd h2 {
     font-size: 18.14px;
     font-weight: 900;
   }
   #vedio-tutorial {
-    /* font-size: ; */
     font-size: 12.1px;
     font-weight: 400;
     line-height: 18.14px;
@@ -731,10 +625,7 @@ select {
     margin-top: 0px;
   }
   .habit-container {
-    /* display: grid; */
     grid-template-columns: repeat(1, 1fr);
-    /* margin-top: 58px; */
-    /* border: 2px solid red; */
   }
   .habit-card p {
     margin-bottom: 40px;
@@ -749,7 +640,6 @@ select {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    /* border: 2px solid red; */
   }
   .run-text-content {
     padding: 33px 33px 0px 33px;
@@ -762,21 +652,16 @@ select {
     text-align: left;
   }
   .now-btn {
-    /* width: 160px; */
     width: 100%;
-    /* width: 287px; */
     padding: 16px 40px 16px 40px;
   }
   .run-img {
-    /* width: 100%; */
     margin: 10px;
     padding: 20px;
     border-radius: 18px;
   }
   /* Bmi text */
   .bmi-text-container {
-    /* width: 353px; */
-    /* width: 100%; */
     text-align: left;
     margin: 20px;
   }
@@ -794,8 +679,6 @@ select {
     flex-direction: column;
     margin-top: 30px;
     width: 100%;
-    /* padding: 20px 20px 20px 20px; */
-    /* margin: 20px; */
   }
   .calculate-your-bmi h2 {
     font-size: 1rem;
@@ -803,7 +686,6 @@ select {
     margin-top: 15px;
   }
   .calculate-your-bmi button {
-    /* width: 224px; */
     width: 200px;
     padding: 16px 40px 16px 40px;
     margin-left: 0px;
@@ -811,23 +693,15 @@ select {
 
   .bmi-chart {
     width: 70%;
-    /* width: 200px; */
-    /* margin: 20px; */
     margin-left: 0px;
     padding-left: 12px;
-    /* border: 2px solid red; */
   }
-  /* .bmi-chart {
-    
-  } */
   .bmi-chart h2 {
     margin-top: 30px;
     font-size: 1rem;
     font-weight: 900;
   }
   .calculate-your-bmi {
-    /* width: 399px; */
-    /* width: 354px; */
     width: 100%;
     margin: 10px;
     margin-left: 0px;
@@ -840,11 +714,6 @@ select {
   .form-container {
     width: 97%;
     padding-left: 5px;
-    /* margin: 20px; */
-    /* border: 2px solid rgb(0, 244, 28); */
-  }
-  .form-field {
-    /* margin: 20px; */
   }
 
   .calculate-your-bmi h2 {
@@ -855,50 +724,31 @@ select {
   }
 
   /* Meet our team responsive///////////////////////////////////////////////////////////////////////////// */
-  .team-section-container {
-    /* width: 100%; */
-    /* border: 2px solid red; */
-  }
   .tainer-img-container {
     flex-direction: column;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
-    /* margin: 20px; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(1, 1fr); */
   }
   .card {
     width: 90%;
-    /* height: 100%; */
     margin-top: 10px;
     margin-left: 20px;
   }
   .card img {
     width: 100%;
     height: 100%;
-    /* padding: 10px 10px 10px 10px; */
-    /* border-radius: 18px; */
-    /* padding: 20px 20px 20px 20px; */
-    /* background-color: black; */
-    /* border: 2px solid yellow; */
   }
   .team-text h1 {
     font-size: 32px;
   }
 
   /* Footer section start............................ */
-  .footer-section {
-    /* width: 100%; */
-  }
   .footer-container {
-    /* width: 100%; */
     flex-direction: column;
     margin: 20px;
   }
   #border {
-    /* width: 170px; */
     width: 90%;
-    /* margin: 20px; */
     padding-left: 0px;
     margin-left: 20px;
     margin-top: 2px;
@@ -918,31 +768,17 @@ select {
     margin-left: 0px;
   }
   .last-text {
-    /* margin-left: 20px; */
     text-align: center;
 
     padding-bottom: 10px;
     padding-left: 20px;
   }
-  .footer-context {
-    /* width: 100%; */
-  }
   .fitness-text {
     margin-left: 0;
-    /* width: 100px; */
   }
   .fitness-text h1 {
-    /* width: 100px; */
-    /* margin-top: 40px; */
     font-size: 3rem;
-    /* border: 2px solid red; */
   }
-  .fitness-text p {
-    /* width: 200px; */
-    /* border: 2px solid red; */
-  }
-
-  /* ///////////////////// */
   .second-text-content h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -960,7 +796,4 @@ select {
     margin-top: 10px;
     color: rgb(230, 83, 60);
   }
-  /* ///////////////////// */
 }
-
-/* Last Update.() */
